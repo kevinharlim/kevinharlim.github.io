@@ -132,7 +132,9 @@ p.why-p1, .role-p1, .contact-p1{
     .img-about, .contactimg{
         margin-top: 0px;
     }
-    
+    .home img{
+        overlay: hidden;
+    }
     .dec-1{
         display: none;
     }
