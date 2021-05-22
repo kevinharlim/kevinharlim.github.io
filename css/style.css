@@ -108,7 +108,7 @@ p.why-p1, .role-p1, .contact-p1{
     margin-top: 0px;
 }
 @media(max-width: 450px){
-    *{
+    *{  
         margin: 0px 2px 2px;
         overflow: scroll;
     }
@@ -132,9 +132,7 @@ p.why-p1, .role-p1, .contact-p1{
     .img-about, .contactimg{
         margin-top: 0px;
     }
-    .homeimg{
-        display: none;
-    }
+    
     .dec-1{
         display: none;
     }
