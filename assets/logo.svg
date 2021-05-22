@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58.821" height="39" viewBox="0 0 58.821 39">
+  <g id="Group_73" data-name="Group 73" transform="translate(-3605.179 -411)">
+    <g id="Group_71" data-name="Group 71" transform="translate(3632.38 411)">
+      <path id="Rectangle_42" data-name="Rectangle 42" d="M7,0H7A0,0,0,0,1,7,0V32a7,7,0,0,1-7,7H0a0,0,0,0,1,0,0V7A7,7,0,0,1,7,0Z" transform="translate(-0.38)"/>
+      <path id="Rectangle_43" data-name="Rectangle 43" d="M7,0H7A0,0,0,0,1,7,0V31a7,7,0,0,1-7,7H0a0,0,0,0,1,0,0V7A7,7,0,0,1,7,0Z" transform="translate(19.62)"/>
+      <path id="Rectangle_44" data-name="Rectangle 44" d="M0,0H0A7,7,0,0,1,7,7V32a0,0,0,0,1,0,0H7a7,7,0,0,1-7-7V0A0,0,0,0,1,0,0Z" transform="translate(31.62 16) rotate(90)"/>
+    </g>
+    <g id="Group_72" data-name="Group 72" transform="translate(3605.179 411.345)">
+      <path id="Rectangle_39" data-name="Rectangle 39" d="M7,0H7A0,0,0,0,1,7,0V32a7,7,0,0,1-7,7H0a0,0,0,0,1,0,0V7A7,7,0,0,1,7,0Z" transform="translate(1.821 -0.345)"/>
+      <path id="Rectangle_40" data-name="Rectangle 40" d="M6.694,0h0a0,0,0,0,1,0,0V22.562A6.694,6.694,0,0,1,0,29.256H0a0,0,0,0,1,0,0V6.694A6.694,6.694,0,0,1,6.694,0Z" transform="translate(22.439 2.461) rotate(45)"/>
+      <path id="Rectangle_41" data-name="Rectangle 41" d="M6.694,0h0a0,0,0,0,1,0,0V20.951A6.694,6.694,0,0,1,0,27.645H0a0,0,0,0,1,0,0V6.694A6.694,6.694,0,0,1,6.694,0Z" transform="translate(27.288 32.706) rotate(120)"/>
+    </g>
+  </g>
+</svg>

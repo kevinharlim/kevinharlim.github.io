@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.navbar{
+    background-color: white !important;
+    box-shadow: 0px 10px 20px rgba(138, 138, 138, 0.1);
+}
+.nav-link{
+    color: #12162D !important;
+    font-weight: 500;
+}
+.nav-link:hover {
+    font-weight: 500;
+    color: #454ad1 !important;
+    transition: 1s;
+}
+.navbar-toggler{
+    padding-right: 0px;
+    outline: none !important;
+    border: none !important;
+}
+.mt-100{
+    margin-top: 100px;
+}
+
+
+h1.heading,.about, .why{
+    line-height: 50px;
+    color: #12162D;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h5.port-sub{
+    margin-top: 30px;
+    color: #12162D;
+    font-weight: bold;
+}
+
+p.muted {
+    margin-top: 50px;
+    color: #12162D;
+    opacity: 80%;
+    line-height: 40px;
+}
+
+p.about-p1, .port-text{
+    color: #12162D;
+    opacity: 80%;
+    line-height: 40px;
+}
+p.about-p2{
+    margin-top: 50px;
+    color: #12162D;
+    opacity: 80%;
+    line-height: 40px;
+}
+
+.btn-primary{
+    margin-top: 3px;
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    padding: 10px;
+    color:white;
+    background-image: linear-gradient(to right,#454ad1,#4DFFFF);
+}
+
+.socmed{
+    margin-top: 20px;
+}
+p.why-sub1, .role-sub1{
+    margin-top: 30px;
+}
+p.why-p1, .role-p1, .contact-p1{
+    margin-top: 20px;
+    color: #12162D;
+    opacity: 80%;
+    line-height: 30px;
+}
+.homeimg{
+    z-index: -2;
+}
+.roleimg{
+    text-align: center;
+}
+
+.contactimg{
+    margin-top: -170px;
+}
+
+.dec-1{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    right: 0;
+}
+
+.port-link a{
+    color: #FF4343;
+}
+
+#section-home{
+    margin-top: 0px;
+}
+@media(max-width: 450px){
+    *{
+        margin: 0px 2px 2px;
+        overflow: scroll;
+    }
+    
+    .socmed{
+        margin-top: 30px;
+        text-align: center;
+    }
+    p.about-p1{
+        margin-top: 0px;
+    }
+    p.about-p2{
+        margin-top: 0px;
+        color: #12162D;
+        opacity: 80%;
+        line-height: 40px;
+    }
+    .whyimg, .why-sub1, .why-p1{
+        text-align: center;
+    }
+    .img-about, .contactimg{
+        margin-top: 0px;
+    }
+    .homeimg{
+        display: none;
+    }
+    .dec-1{
+        display: none;
+    }
+
+}
