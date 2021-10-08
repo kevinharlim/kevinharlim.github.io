@@ -1,21 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: Poppins;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.canvas{
+    background: #fff;
+}
+.text1{
+    font-weight: bold;
+    text-align: justify;
+}
+.text1-muted{
+    color: #18264B;
+    opacity: 0.5;
+    text-align: justify;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #5B5DFF;
 }
 
 .navbar{
     background-color: white !important;
-    box-shadow: 0px 10px 20px rgba(138, 138, 138, 0.1);
+    box-shadow: 0px 10px 50px rgba(138, 138, 138, 0.1);
 }
 .nav-link{
-    color: #12162D !important;
+    color: #18264B !important;
     font-weight: 500;
 }
 .nav-link:hover {
     font-weight: 500;
-    color: #454ad1 !important;
+    color: #5B5DFF !important;
     transition: 1s;
 }
 .navbar-toggler{
@@ -30,32 +48,32 @@
 
 h1.heading,.about, .why{
     line-height: 50px;
-    color: #12162D;
+    color: #18264B;
     font-size: 36px;
     font-weight: 700;
 }
 
 h5.port-sub{
     margin-top: 30px;
-    color: #12162D;
+    color: #18264B;
     font-weight: bold;
 }
 
 p.muted {
     margin-top: 50px;
-    color: #12162D;
+    color: #18264B;
     opacity: 80%;
     line-height: 40px;
 }
 
 p.about-p1, .port-text{
-    color: #12162D;
+    color: #18264B;
     opacity: 80%;
     line-height: 40px;
 }
 p.about-p2{
     margin-top: 50px;
-    color: #12162D;
+    color: #18264B;
     opacity: 80%;
     line-height: 40px;
 }
@@ -67,7 +85,28 @@ p.about-p2{
     width: 160px;
     padding: 10px;
     color:white;
-    background-image: linear-gradient(to right,#454ad1,#4DFFFF);
+    background-color: #5B5DFF;
+}
+
+.btn-primary1{
+    margin-top: 3px;
+    font-weight: bold;
+    border: 1.5px solid #5B5DFF;
+    border-radius: 5px;
+    width: 160px;
+    padding: 10px;
+    color: #5B5DFF;
+    background-color: #ffffff;
+}
+
+.btn-primary1:hover{
+    margin-top: 3px;
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    padding: 10px;
+    color:white;
+    background-color: #5B5DFF;
 }
 
 .socmed{
@@ -78,7 +117,7 @@ p.why-sub1, .role-sub1{
 }
 p.why-p1, .role-p1, .contact-p1{
     margin-top: 20px;
-    color: #12162D;
+    color: #18264B;
     opacity: 80%;
     line-height: 30px;
 }
@@ -99,6 +138,7 @@ p.why-p1, .role-p1, .contact-p1{
     top: 0px;
     right: 0;
 }
+
 
 .port-link a{
     color: #FF4343;
@@ -122,7 +162,7 @@ p.why-p1, .role-p1, .contact-p1{
     }
     p.about-p2{
         margin-top: 0px;
-        color: #12162D;
+        color: #18264B;
         opacity: 80%;
         line-height: 40px;
     }
@@ -138,5 +178,6 @@ p.why-p1, .role-p1, .contact-p1{
     .dec-1{
         display: none;
     }
+    
 
 }
