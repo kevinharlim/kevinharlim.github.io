@@ -6,8 +6,6 @@
 }
 
 canvas{
-    opacity: 1;
-    width: 100vw;
     position: absolute;
     z-index: -1;
     background: #fff;
