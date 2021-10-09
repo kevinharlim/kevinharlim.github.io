@@ -5,9 +5,14 @@
     font-family: 'DM Sans', sans-serif;
 }
 
-.canvas{
+canvas{
+    opacity: 1;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
     background: #fff;
 }
+
 .text1{
     font-weight: bold;
     text-align: justify;
